@@ -1,0 +1,139 @@
+.formContainer {
+
+    display: block;
+}
+
+form {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+
+form input {
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 0 16px;
+    outline-color: #1f5eaf;
+    border-color: #1f5eaf;
+}
+
+form input::placeholder {
+    /* text-align: center; */
+    font-size: 1rem;
+}
+
+form label {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    margin-left: 16px;
+}
+
+form span {
+    font-size: small;
+}
+
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    column-gap: 128px;
+    margin-top: 32px;
+
+}
+
+.buttonContainer button:last-child {
+    margin-right: 12px;
+}
+
+.buttonContainer button {
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 1.2rem;
+    border-color: #1f5eaf;
+    cursor: pointer;
+
+}
+
+.buttonContainer button:hover {
+    background-color: #1f5eaf;
+    color: #fff;
+}
+
+.buttonContainer button:last-child:hover {
+    background-color: #ff5202;
+}
+
+
+.result {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.result span {
+    display: inline-block;
+    background-color: #1f5eaf;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 8px;
+
+}
+
+table {
+    width: 100%;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    background-color: #eeeeee;
+}
+
+
+table th {
+    padding: 12px;
+    background-color: #1f5eaf;
+    border-radius: 8px;
+    color: #fff;
+}
+
+tbody tr:first-child td {
+    color: #1f5eaf;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #c2c1c1;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+}
+
+@media (max-width: 740px) {
+    form {
+        display: block;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    form input {
+        margin: 8px auto;
+
+    }
+
+    .buttonContainer {
+        justify-content: space-around;
+        column-gap: 10px;
+    }
+
+    .buttonContainer button {
+        font-size: 1rem;
+    }
+}

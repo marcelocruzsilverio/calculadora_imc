@@ -1,0 +1,22 @@
+.headerContainer {
+    /* width: 90%; */
+    margin-top: 32px;
+    background-color: #eee;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+
+
+.headerContent h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #1f5eaf;
+
+}
+
+.headerContent p {
+    text-align: justify;
+    margin-bottom: 16px;
+    color: #707070;
+}
